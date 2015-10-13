@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStore", "GameStore\GameStore.csproj", "{145941BA-98AE-476E-A9BB-9636388CBEF2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{25A5FF1D-75E2-4D26-9083-A2FA4292BC7E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{6461CF61-9420-474D-BE7E-8BF2658F1EE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{E7A0C0C3-0760-4DA7-A12A-87BC95C97D9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{6461CF61-9420-474D-BE7E-8BF2658F1EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6461CF61-9420-474D-BE7E-8BF2658F1EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6461CF61-9420-474D-BE7E-8BF2658F1EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7A0C0C3-0760-4DA7-A12A-87BC95C97D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A0C0C3-0760-4DA7-A12A-87BC95C97D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A0C0C3-0760-4DA7-A12A-87BC95C97D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A0C0C3-0760-4DA7-A12A-87BC95C97D9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

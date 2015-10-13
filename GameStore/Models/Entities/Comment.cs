@@ -13,5 +13,7 @@ namespace Models.Entities
         public String Body { get; set; }
         public Int32 Author { get; set; }
         public Int32 GameId { get; set; }
+
+        public virtual Game Game { get; set; }
     }
 }
